@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.license       = "Apache2.0"
   s.files = Dir.glob("lib/**/*") + %w(CHANGELOG.md LICENSE README.md)
   s.require_path = "lib"
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 1.8.3'
   s.post_install_message = "Thank you for using Aerospike!\nYou can report issues on github.com/aerospike/aerospike-client-ruby"
   s.add_dependency("atomic", '~> 1.1')
   s.add_dependency("msgpack", '~> 0.5')
